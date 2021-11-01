@@ -61,11 +61,11 @@
 }
 
 .header__text {
-    width: 520px;
-    height: 390px;
-    display: flex;
+     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 520px;
+    height: 390px;
 }
 
 .header__text__title {
@@ -125,10 +125,10 @@
 
 .header__autorization--block {
     display: flex;
-    width: 100%;
-    height: 56px;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 56px;
 }
 
 .header__autorization--title {
@@ -191,8 +191,8 @@
 
 .social-media__block {
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
+    flex-direction: column;
     width: 365px;
     height: 110px;
 }
@@ -271,6 +271,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+     width: 112px;
+    height: 110px;
     font-weight: bold;
     font-size: 15px;
     line-height: 20px;
@@ -278,8 +280,6 @@
     color: #FFFFFF;
     background: #333333;
     border-radius: 4px;
-    width: 112px;
-    height: 110px;
 }
 
 .tabs__column--orange {
@@ -296,12 +296,12 @@
 }
 
 .tabs__title {
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 27px;
     display: flex;
     align-items: center;
     text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
     text-transform: uppercase;
     color: #000000;
 }
@@ -328,14 +328,14 @@
     align-items: center;
     width: 135px;
     height: 42px;
-    background: #EC7979;
-    border: 1px solid #EC7979;
     font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
     line-height: 20.4px;
     color: #FFFFFF;
+    background: #EC7979;
+    border: 1px solid #EC7979;
 }
 
 .tabs__city--img {
